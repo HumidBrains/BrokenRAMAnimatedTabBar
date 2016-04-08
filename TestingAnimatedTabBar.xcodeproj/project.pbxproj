@@ -17,6 +17,11 @@
 		BFC9E95E1CB79F8600ACA907 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9E95D1CB79F8600ACA907 /* ThirdViewController.swift */; };
 		BFC9E9601CB79FA300ACA907 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9E95F1CB79FA300ACA907 /* FourthViewController.swift */; };
 		BFC9E9621CB79FB000ACA907 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9E9611CB79FB000ACA907 /* FifthViewController.swift */; };
+		BFC9E96B1CB7A86A00ACA907 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC9E96A1CB7A86A00ACA907 /* First.storyboard */; };
+		BFC9E96D1CB7A87C00ACA907 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC9E96C1CB7A87C00ACA907 /* Second.storyboard */; };
+		BFC9E96F1CB7A88D00ACA907 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC9E96E1CB7A88D00ACA907 /* Third.storyboard */; };
+		BFC9E9711CB7A8A100ACA907 /* Fourth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC9E9701CB7A8A100ACA907 /* Fourth.storyboard */; };
+		BFC9E9731CB7A8B900ACA907 /* Fifth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC9E9721CB7A8B900ACA907 /* Fifth.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		BFC9E95D1CB79F8600ACA907 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BFC9E95F1CB79FA300ACA907 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		BFC9E9611CB79FB000ACA907 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		BFC9E96A1CB7A86A00ACA907 /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		BFC9E96C1CB7A87C00ACA907 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		BFC9E96E1CB7A88D00ACA907 /* Third.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		BFC9E9701CB7A8A100ACA907 /* Fourth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fourth.storyboard; sourceTree = "<group>"; };
+		BFC9E9721CB7A8B900ACA907 /* Fifth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fifth.storyboard; sourceTree = "<group>"; };
 		F70792DD2D19AC19A6A8B1E8 /* Pods-TestingAnimatedTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAnimatedTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestingAnimatedTabBar/Pods-TestingAnimatedTabBar.release.xcconfig"; sourceTree = "<group>"; };
 		F9262BDF1FC03E420CEBC8A4 /* Pods-TestingAnimatedTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAnimatedTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestingAnimatedTabBar/Pods-TestingAnimatedTabBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +106,7 @@
 		BFC9E9631CB79FDA00ACA907 /* ViewController1 */ = {
 			isa = PBXGroup;
 			children = (
+				BFC9E96A1CB7A86A00ACA907 /* First.storyboard */,
 				BFC9E94B1CB79F1000ACA907 /* FirstViewController.swift */,
 			);
 			name = ViewController1;
@@ -104,6 +115,7 @@
 		BFC9E9641CB79FEB00ACA907 /* ViewController2 */ = {
 			isa = PBXGroup;
 			children = (
+				BFC9E96C1CB7A87C00ACA907 /* Second.storyboard */,
 				BFC9E94D1CB79F1000ACA907 /* SecondViewController.swift */,
 			);
 			name = ViewController2;
@@ -112,6 +124,7 @@
 		BFC9E9651CB79FF400ACA907 /* ViewController3 */ = {
 			isa = PBXGroup;
 			children = (
+				BFC9E96E1CB7A88D00ACA907 /* Third.storyboard */,
 				BFC9E95D1CB79F8600ACA907 /* ThirdViewController.swift */,
 			);
 			name = ViewController3;
@@ -120,6 +133,7 @@
 		BFC9E9661CB79FFE00ACA907 /* ViewController4 */ = {
 			isa = PBXGroup;
 			children = (
+				BFC9E9701CB7A8A100ACA907 /* Fourth.storyboard */,
 				BFC9E95F1CB79FA300ACA907 /* FourthViewController.swift */,
 			);
 			name = ViewController4;
@@ -128,6 +142,7 @@
 		BFC9E9671CB7A00500ACA907 /* ViewController5 */ = {
 			isa = PBXGroup;
 			children = (
+				BFC9E9721CB7A8B900ACA907 /* Fifth.storyboard */,
 				BFC9E9611CB79FB000ACA907 /* FifthViewController.swift */,
 			);
 			name = ViewController5;
@@ -202,9 +217,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC9E9731CB7A8B900ACA907 /* Fifth.storyboard in Resources */,
 				BFC9E9561CB79F1000ACA907 /* LaunchScreen.storyboard in Resources */,
 				BFC9E9531CB79F1000ACA907 /* Assets.xcassets in Resources */,
 				BFC9E9511CB79F1000ACA907 /* Main.storyboard in Resources */,
+				BFC9E9711CB7A8A100ACA907 /* Fourth.storyboard in Resources */,
+				BFC9E96D1CB7A87C00ACA907 /* Second.storyboard in Resources */,
+				BFC9E96F1CB7A88D00ACA907 /* Third.storyboard in Resources */,
+				BFC9E96B1CB7A86A00ACA907 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

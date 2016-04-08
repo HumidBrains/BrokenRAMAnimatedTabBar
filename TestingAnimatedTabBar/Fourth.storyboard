@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TVf-cz-WDu">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Fourth-->
+        <scene sceneID="jNH-gq-q1H">
+            <objects>
+                <viewController title="Fourth" id="TVf-cz-WDu" customClass="FourthViewController" customModule="TestingAnimatedTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QIs-Ki-UAZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="TYd-hu-XGV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iqE-ra-wvU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Fourth View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jpS-qA-6Yf">
+                                <rect key="frame" x="204" y="242" width="192" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FourthViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHt-BB-g5i">
+                                <rect key="frame" x="196" y="292" width="209" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jpS-qA-6Yf" firstAttribute="centerX" secondItem="LHt-BB-g5i" secondAttribute="centerX" id="7yZ-pL-aAV"/>
+                            <constraint firstItem="LHt-BB-g5i" firstAttribute="centerY" secondItem="iqE-ra-wvU" secondAttribute="centerY" id="AQY-TZ-vcP"/>
+                            <constraint firstItem="jpS-qA-6Yf" firstAttribute="centerX" secondItem="iqE-ra-wvU" secondAttribute="centerX" id="tGP-sc-RTh"/>
+                            <constraint firstItem="LHt-BB-g5i" firstAttribute="top" secondItem="jpS-qA-6Yf" secondAttribute="bottom" constant="8" symbolic="YES" id="wMB-NL-leA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Fourth" image="first" id="Zc9-bs-Bcp" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="ywx-vj-fUA" id="tJD-V6-zou"/>
+                        </connections>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dy5-pn-6D6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="ywx-vj-fUA" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="1442" y="360"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+    </resources>
+</document>
