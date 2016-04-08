@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0541D21D7DCC0F85B29FA761 /* Pods_TestingAnimatedTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAF0AC552C9AEC4E4E60375 /* Pods_TestingAnimatedTabBar.framework */; };
 		BFC9E94A1CB79F1000ACA907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9E9491CB79F1000ACA907 /* AppDelegate.swift */; };
 		BFC9E94C1CB79F1000ACA907 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9E94B1CB79F1000ACA907 /* FirstViewController.swift */; };
 		BFC9E94E1CB79F1000ACA907 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9E94D1CB79F1000ACA907 /* SecondViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AAF0AC552C9AEC4E4E60375 /* Pods_TestingAnimatedTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingAnimatedTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC9E9461CB79F1000ACA907 /* TestingAnimatedTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingAnimatedTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC9E9491CB79F1000ACA907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFC9E94B1CB79F1000ACA907 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +32,8 @@
 		BFC9E95D1CB79F8600ACA907 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BFC9E95F1CB79FA300ACA907 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		BFC9E9611CB79FB000ACA907 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		F70792DD2D19AC19A6A8B1E8 /* Pods-TestingAnimatedTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAnimatedTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestingAnimatedTabBar/Pods-TestingAnimatedTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		F9262BDF1FC03E420CEBC8A4 /* Pods-TestingAnimatedTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAnimatedTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestingAnimatedTabBar/Pods-TestingAnimatedTabBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0541D21D7DCC0F85B29FA761 /* Pods_TestingAnimatedTabBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A6D3605867C76A55AE1296A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9262BDF1FC03E420CEBC8A4 /* Pods-TestingAnimatedTabBar.debug.xcconfig */,
+				F70792DD2D19AC19A6A8B1E8 /* Pods-TestingAnimatedTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BFC9E93D1CB79F1000ACA907 = {
 			isa = PBXGroup;
 			children = (
-				BFC9E9481CB79F1000ACA907 /* TestingAnimatedTabBar */,
+				BFC9E9481CB79F1000ACA907 /* App */,
 				BFC9E9471CB79F1000ACA907 /* Products */,
+				7A6D3605867C76A55AE1296A /* Pods */,
+				E6ADA9EF1092927D2F9E41B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,61 +75,70 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFC9E9481CB79F1000ACA907 /* TestingAnimatedTabBar */ = {
+		BFC9E9481CB79F1000ACA907 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				BFC9E9491CB79F1000ACA907 /* AppDelegate.swift */,
-				BFC9E9631CB79FDA00ACA907 /* Storyboard1 */,
-				BFC9E9641CB79FEB00ACA907 /* Storyboard2 */,
-				BFC9E9651CB79FF400ACA907 /* Storyboard3 */,
-				BFC9E9661CB79FFE00ACA907 /* Storyboard4 */,
-				BFC9E9671CB7A00500ACA907 /* Storyboard5 */,
 				BFC9E94F1CB79F1000ACA907 /* Main.storyboard */,
+				BFC9E9631CB79FDA00ACA907 /* ViewController1 */,
+				BFC9E9641CB79FEB00ACA907 /* ViewController2 */,
+				BFC9E9651CB79FF400ACA907 /* ViewController3 */,
+				BFC9E9661CB79FFE00ACA907 /* ViewController4 */,
+				BFC9E9671CB7A00500ACA907 /* ViewController5 */,
 				BFC9E9521CB79F1000ACA907 /* Assets.xcassets */,
 				BFC9E9541CB79F1000ACA907 /* LaunchScreen.storyboard */,
 				BFC9E9571CB79F1000ACA907 /* Info.plist */,
 			);
+			name = App;
 			path = TestingAnimatedTabBar;
 			sourceTree = "<group>";
 		};
-		BFC9E9631CB79FDA00ACA907 /* Storyboard1 */ = {
+		BFC9E9631CB79FDA00ACA907 /* ViewController1 */ = {
 			isa = PBXGroup;
 			children = (
 				BFC9E94B1CB79F1000ACA907 /* FirstViewController.swift */,
 			);
-			name = Storyboard1;
+			name = ViewController1;
 			sourceTree = "<group>";
 		};
-		BFC9E9641CB79FEB00ACA907 /* Storyboard2 */ = {
+		BFC9E9641CB79FEB00ACA907 /* ViewController2 */ = {
 			isa = PBXGroup;
 			children = (
 				BFC9E94D1CB79F1000ACA907 /* SecondViewController.swift */,
 			);
-			name = Storyboard2;
+			name = ViewController2;
 			sourceTree = "<group>";
 		};
-		BFC9E9651CB79FF400ACA907 /* Storyboard3 */ = {
+		BFC9E9651CB79FF400ACA907 /* ViewController3 */ = {
 			isa = PBXGroup;
 			children = (
 				BFC9E95D1CB79F8600ACA907 /* ThirdViewController.swift */,
 			);
-			name = Storyboard3;
+			name = ViewController3;
 			sourceTree = "<group>";
 		};
-		BFC9E9661CB79FFE00ACA907 /* Storyboard4 */ = {
+		BFC9E9661CB79FFE00ACA907 /* ViewController4 */ = {
 			isa = PBXGroup;
 			children = (
 				BFC9E95F1CB79FA300ACA907 /* FourthViewController.swift */,
 			);
-			name = Storyboard4;
+			name = ViewController4;
 			sourceTree = "<group>";
 		};
-		BFC9E9671CB7A00500ACA907 /* Storyboard5 */ = {
+		BFC9E9671CB7A00500ACA907 /* ViewController5 */ = {
 			isa = PBXGroup;
 			children = (
 				BFC9E9611CB79FB000ACA907 /* FifthViewController.swift */,
 			);
-			name = Storyboard5;
+			name = ViewController5;
+			sourceTree = "<group>";
+		};
+		E6ADA9EF1092927D2F9E41B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AAF0AC552C9AEC4E4E60375 /* Pods_TestingAnimatedTabBar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFC9E95A1CB79F1000ACA907 /* Build configuration list for PBXNativeTarget "TestingAnimatedTabBar" */;
 			buildPhases = (
+				21B3CB790FDBB5F44E33AEE8 /* Check Pods Manifest.lock */,
 				BFC9E9421CB79F1000ACA907 /* Sources */,
 				BFC9E9431CB79F1000ACA907 /* Frameworks */,
 				BFC9E9441CB79F1000ACA907 /* Resources */,
+				EF6F001C67BA466C9E5A5789 /* Embed Pods Frameworks */,
+				3EBE94902C32B5041616BD52 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,6 +209,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21B3CB790FDBB5F44E33AEE8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EBE94902C32B5041616BD52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingAnimatedTabBar/Pods-TestingAnimatedTabBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6F001C67BA466C9E5A5789 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingAnimatedTabBar/Pods-TestingAnimatedTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFC9E9421CB79F1000ACA907 /* Sources */ = {
@@ -305,6 +381,7 @@
 		};
 		BFC9E95B1CB79F1000ACA907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9262BDF1FC03E420CEBC8A4 /* Pods-TestingAnimatedTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestingAnimatedTabBar/Info.plist;
@@ -316,6 +393,7 @@
 		};
 		BFC9E95C1CB79F1000ACA907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70792DD2D19AC19A6A8B1E8 /* Pods-TestingAnimatedTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestingAnimatedTabBar/Info.plist;
@@ -344,6 +422,7 @@
 				BFC9E95C1CB79F1000ACA907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

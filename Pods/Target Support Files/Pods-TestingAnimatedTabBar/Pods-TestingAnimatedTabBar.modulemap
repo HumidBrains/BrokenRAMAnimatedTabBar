@@ -1,0 +1,6 @@
+framework module Pods_TestingAnimatedTabBar {
+  umbrella header "Pods-TestingAnimatedTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
